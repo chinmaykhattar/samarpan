@@ -1,0 +1,285 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<script src="/path/to/jquery.flip.min.js"></script>
+	
+	<script>
+$(function(){
+    $(".flip").flip({
+        trigger: 'click'
+    });
+});
+</script>
+	<style>
+		
+		
+	* {cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1160.png), auto !important;
+		perspective: 1000px;
+		} 
+		.cont
+		{
+			
+			border-bottom-left-radius: 10px;
+			border-bottom-right-radius: 10px;
+			box-shadow: 0 0 5px 5px white;
+			border-bottom: 5px solid white;
+			border-top: 5px solid white;
+			background-color: black;
+			color: white;
+		}
+		
+		.profile_tab
+		{
+			height: 100%;
+			width: 100%;
+			text-align: center;
+		}
+	
+		.profile_container
+		{
+			perspective: 1000px;
+		background-color: white;
+			margin-bottom: 50px;
+			box-shadow: 0 0 20px 5px black;
+			width: 300px;
+			border-radius: 50%;
+			height: 300px;
+			background-image: url("outer.svg");
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: contain;
+		}
+		
+		
+		
+	
+		
+		.profile_image
+		
+		{
+			transform: rotateZ(20deg);
+			transition: all .5s;
+			border-radius: 50%;
+			width: 175px;
+			opacity: .85;
+			border:thick black solid;
+			height: 175px;
+		}
+		
+		/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #1B1653; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fff; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+		
+		.profile_image:hover
+		{
+			
+			opacity: 1;
+			width: 300px;
+			height: 300px;
+			transform: rotateZ(0);
+		}
+		.bg_v
+		{
+			position: fixed;
+  top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+  z-index: -9999;
+min-width: 100%; 
+  min-height: 100%;
+
+
+		}
+		.profile_member_name
+		{
+			
+			background: white; 
+			position: relative;
+			top: -40px;
+			padding: 10px;
+			border-radius: 5px;
+			box-shadow: 0 0 20px 5px black;
+			z-index: 1;
+			transform: rotateX(30deg);
+			font-weight: 1000;
+		}
+		h1{
+			color: antiquewhite;
+		}
+		
+	</style>
+	
+<meta charset="utf-8">
+<title>MEMBERS</title>
+</head>
+
+<body>
+	<video autoplay loop muted class="bg_v">
+		<source src="video/videoplayback.mp4" type="video/mp4">
+		</video>
+	<nav class="navbar navbar-inverse cont">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"><div style="transform: scale(.75); position: relative; left: -40px;top: -15px;"><img src="video/samarpan.png" draggable="false"></div>
+</a>
+	
+    </div>
+	  
+    <div class="collapse navbar-collapse" id="myNavbar">
+		 <ul class="nav navbar-nav">
+      <li><a href="main.html">Home</a></li>
+      <li><a href="members.html">Members</a></li>
+      <li><a href="EVENTS1.html">Events</a></li>
+      <li><a href="contactus.html">Contact us</a></li>
+    </ul>
+    </div>
+  </div>
+</nav>
+	<div class="container-fluid" 
+		 align="center">
+	<div class="container">
+	
+	<div class="row">
+		
+		<div class="col-lg-4">
+			<div class="profile_container">
+				<table class="profile_tab"><tr><td><img src="Members/rachnadir.jpeg" class="profile_image"></td></tr></table>	
+				<div class="profile_member_name">Rachna Dhir
+					<br>
+					(CLUB COORDINATOR)
+				</div>
+				
+			
+			</div>
+		</div>
+		<div class="col-lg-4">
+			<div class="profile_container">
+			<table class="profile_tab"><tr><td><img src="Members/vaibhav.jpg" class="profile_image"></td></tr></table>
+				<div class="profile_member_name">Vaibhav Mishra
+					<br>
+					(Joint Secretary)
+				</div>
+			</div>
+		</div>
+			<div class="col-lg-4">
+				<div class="profile_container">
+			    <table class="profile_tab"><tr><td><img src="Members/nitin.jpeg" class="profile_image"></td></tr></table>
+					<div class="profile_member_name">Nitin Bindal
+						<br>
+						(Joint Secretary)
+					</div>
+				</div>
+		</div>
+		</div>
+<div class="row">
+		
+		<div class="col-lg-4">
+			<div class="profile_container">
+			<table class="profile_tab"><tr><td><img src="Members/SAHIL (1).jpg" class="profile_image"></td></tr></table>	
+				<div class="profile_member_name">Sahil Panchal
+					<br>
+					(Joint Secretary)
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4">
+			<div class="profile_container">
+			<table class="profile_tab"><tr><td><img src="Members/swati.JPG" class="profile_image"></td></tr></table>
+				<div class="profile_member_name">Swati<br>
+				(Joint Secretary)
+			</div>
+			</div>
+		</div>
+			<div class="col-lg-4">
+				
+				
+				<div class="profile_container">
+			    <table class="profile_tab"><tr><td><img src="Members/yashika..jpeg" class="profile_image"></td></tr></table>
+					<div class="profile_member_name">Yashika Garg
+						<br>
+						(Sr. Coordinator)
+					</div>
+				</div>
+		</div>
+		</div>
+		<div class="row">
+		
+				<div class="col-lg-4">
+					<div class="profile_container">
+					<table class="profile_tab"><tr><td><img src="Members/shagun.jpeg" class="profile_image"></td></tr></table>	
+						<div class="profile_member_name">Shagun Jain
+							<br>
+							(Sr. Coordinator)
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="profile_container">
+					<table class="profile_tab"><tr><td><img src="Members/soham.jpeg" class="profile_image"></td></tr></table>
+						<div class="profile_member_name">Shoham Singla
+							<br>
+							(Sr. Coordinator)
+						</div>
+					</div>
+				</div>
+					<div class="col-lg-4">
+						
+						
+						<div class="profile_container">
+							<table class="profile_tab"><tr><td><img src="Members/shivam.jpeg" class="profile_image"></td></tr></table>
+							<div class="profile_member_name">Shivam Dubey
+								<br>
+								(Sr. Coordinator)
+							</div>
+						</div>
+				</div>
+				</div>
+				
+
+
+				<div class="row">
+		
+					<div class="col-lg-4">
+						<div class="profile_container">
+						<table class="profile_tab"><tr><td><img src="Members/swatijuneja.jpeg" class="profile_image"></td></tr></table>	
+							<div class="profile_member_name">SWATI JUNEJA
+								<br>
+								(Sr. Coordinator)
+							</div>
+						</div>
+					</div>
+					
+					</div>
+					</div>
+					
+		</div>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,214 @@
+<!doctype html>
+<html>
+<head>
+	 <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	
+	<style>
+		
+		* {cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1160.png), auto !important;} 
+		
+	.bg_v
+		{
+			position: fixed;
+   top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+  z-index: -9999;
+  
+  min-width: 100%; 
+  min-height: 100%;
+		}
+		
+		.cont
+		{
+			
+			border-bottom-left-radius: 10px;
+			border-bottom-right-radius: 10px;
+			box-shadow: 0 0 5px 5px white;
+			border-bottom: 5px solid white;
+			border-top: 5px solid white;
+			background-color: black;
+			color: white;
+		}
+		.actor_container
+		{
+			font-weight: 1000;
+			text-align: center;
+			line-height: 50px;
+			position: absolute;
+			top: 5px;
+			width: 100px;
+			height: 50px;
+		}
+		.actor_container:hover
+		{
+			transition: .5s all;
+			background-color: white;
+			color: black;
+		}
+		.actor_container_center
+		{
+			position: absolute;
+			top: 5px;
+			left: 50%;
+			margin-left: -100px;
+			width: 200px;
+			height: 50px;
+			line-height: 50px;
+			text-align: center;
+			font-weight: 1000;
+			text-shadow: 0 0 5px blue;
+		}
+		.login_container
+		{
+			perspective: 1000px;
+		font-weight: 1000;
+		
+			position: absolute;
+			width: 300px;
+			height: 200px;
+			left: 50%;
+			margin-left: -150px;
+			top: 100px;
+			text-align: center;
+		}
+		.login_background
+		{
+			height: 300px;
+			box-shadow: 0 0 20px 5px white;
+			transform: rotateX(60deg) translateZ(40px);
+			border: thick solid #0B163F;
+			border-radius: 20px;
+			background-color: aqua;
+			opacity: .3;
+		}
+		::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #1B1653; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fff; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+		.log_input
+		{
+			background-color: #050E3A;
+			z-index: 2;
+			padding: 5px;
+			color: white;
+			border: thin double white;
+			border-radius: 10px;
+			width: 200px;
+			height: 45px;
+		}
+		.log_button:hover
+		{
+			transition: all .5s;
+			border: thick solid white;
+			color: white;
+		background: #0C1343;
+		}
+		
+		.log_button
+		{
+			z-index: 2;
+			border: thick solid #0C1343;
+			border-radius: 10px;
+			width: 100px;
+			height: 45px;
+		}
+		.img_ufo
+		{
+	        z-index: 1;
+		}
+		
+		
+	
+		
+		
+	</style>
+	
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+	
+	<video autoplay loop muted class="bg_v">
+		<source src="videoplayback.mp4" type="video/mp4">
+		</video>
+	
+	
+	<nav class="navbar navbar-inverse cont">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"><div style="transform: scale(.75); position: relative; left: -40px;top: -15px;"><img src="samarpan.png" draggable="false"></div>
+</a>
+	
+    </div>
+	  
+    <div class="collapse navbar-collapse" id="myNavbar">
+		 <ul class="nav navbar-nav">
+      <li class="active"><a href="index.html">Home</a></li>
+      <li><a href="members.html">Members</a></li>
+      <li><a href="#">Page 2</a></li>
+      <li><a href="#">Page 3</a></li>
+    </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+	<div class="container-fluid" style="text-align: center;">
+	<div class="container">
+	
+	<div class="row">
+		<div class="col-lg-4"></div>
+		<div class="col-lg-4">
+			<img src="UFO-MotionBlur700px.gif" class="img_ufo img-responsive" style="position: absolute; top:50px; left: 50%; width: 150px;height: auto; margin-left: -75px;">
+	
+		<div class="login_container">
+	<div class="login_container login_background"></div>
+		<div class="login_container login">
+		<table class="login_table" style="width: 300px; height: 200px;">
+			<tr><td colspan="2" class="log_data" style="color:#0C0C41;">USERNAME</td></tr>
+			<tr><td colspan="2"><input class="log_input" type="text" style="text-align: center;" placeholder="USERNAME"></td></tr>
+			<tr><td colspan="2" class="log_data" style="color: #0C0C41; text-shadow: 0 0 5px white;">Password</td></tr>
+			<tr><td colspan="2"><input class="log_input" type="password" placeholder="PASSWORD" style="text-align: center;"></td></tr>
+			<tr><td><input type="reset" value="Clear" class="log_button"></td><td><input type="submit" class="log_button" value="Log-In"></td></tr>
+			</table>
+		</div>
+	</div>
+		</div>
+		<div class="col-lg-4"></div>
+		</div>
+	
+	</div>
+	
+	
+	</div>
+</body>
+</html>
